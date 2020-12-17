@@ -1,0 +1,40 @@
+// importo elementi da file common e variables
+@import 'common';
+@import 'variables';
+
+h1{
+  @include h1-rules;
+}
+
+header{
+  @include display-flex;
+  background-color: $bg-header;
+}
+
+nav{
+  @include display-flex;
+  background-color: $bg-nav;
+
+  ul{
+    @include display-flex;
+
+    li{
+      margin-left: 30px;
+      list-style: none;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+
+}
+
+main{
+  @include display-flex;
+  background-color: $bg-main;
+}
+
+footer{
+  @include display-flex;
+  background-color: $bg-footer;
+}

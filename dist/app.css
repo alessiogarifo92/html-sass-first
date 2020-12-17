@@ -1,0 +1,61 @@
+.font-size-10px {
+  font-size: 10px;
+}
+
+.font-size-20px {
+  font-size: 20px;
+}
+
+.font-size-30px {
+  font-size: 30px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bolder;
+  color: black;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li {
+  margin-left: 30px;
+  list-style: none;
+}
+
+nav ul li:hover {
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lime;
+}
+
